@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 3</title>
+</head>
+<body>
+    <!-- <table border="2" cellspacing="2">
+        <tr>
+            <th>Task</th>
+            <th>Status</th>
+            <th>Assigned To</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Developement</td>
+        <td>In Progress</td>
+        <td>John Deo</td>
+        </tr>
+        <tr>
+          <td>Developement</td> -->
+          <!-- <td>Review</td>
+          <td>Jane Doe</td>
+        </tr>
+    </table> -->
+
+  
+    <!-- <table border="2" cellspacing="2" width="600px" height="700px">
+         <tr><th colspan="6">Time Table</th>
+        </tr>
+         <tr>
+             <th rowspan="6">Hours</th>
+             <th>Mon</th>
+             <th>Tue</th>
+             <th>Wed</th>
+             <th>Fri</th>
+             <th>Sat</th>
+         </tr>
+         <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Arts</td>
+         </tr>
+         <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Arts</td>
+         </tr>
+         <tr>
+            <th colspan="5">Lunch</th>
+         </tr>
+         <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Arts</td>
+         </tr>
+         <tr>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>Arts</td>
+         </tr>
+    </table> -->
+
+
+    <table border="2" cellspacing="1">
+           <tr>
+            <th rowspan="2">ID</th>
+            <th rowspan="2">TITLE</th>
+            <th rowspan="2">PRICE</th>
+            <th rowspan="2">DESCRIPTION</th>
+            <th rowspan="2">CATEGORY</th>
+            <th rowspan="2">IMAGE</th>
+            <th colspan="2">RATING</th>
+            <!-- <th>RATING</th> -->
+           </tr>
+           <tr>
+              <!-- <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th></th> -->
+              <th>RATE</th>
+              <th>COUNT</th>
+           </tr>
+           <tr>
+              <td>1</td>
+              <td>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</td>
+              <td>109.95</td>
+              <td>Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday</td>
+              <td>men's clothing</td>
+              <td><img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt="Img of BackPack" width="100px" height="100px"></td>
+              <td> 3.9</td>
+              <td>120</td>
+           </tr>
+           <tr>
+               <td>2</td>
+               <td>Mens Casual Premium Slim Fit T-Shirts</td>
+               <td>22.3</td>
+               <td>Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.</td>
+               <td>men's clothing</td>
+               <td><img src="data:image/jpeg;base64,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" alt="men Tshirt" width="100px" height="100px"></td>
+               <td> 4.7</td>
+               <td> 500</td>
+           </tr>
+           <tr>
+               <td>3</td>
+               <td>Mens Cotton Jacket</td>
+               <td>55.99</td>
+               <td>great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.</td>
+               <td>men's clothing</td>
+               <td><img src="data:image/jpeg;base64,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" alt="Cotton Jacket" width="100px" height="100px"></td>
+               <td>4.7</td>
+               <td>500</td>
+           </tr>
+           <tr>
+            <td>4</td>
+            <td>Mens Casual Slim Fit</td>
+            <td>15.99</td>
+            <td>The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description</td>
+            <td>men's clothing</td>
+            <td><img src="https://5.imimg.com/data5/ECOM/Default/2023/4/301725389/GR/VW/RM/9422220/2020-brand-new-men-s-casual-shirt-denim-long-sleeve-slim-fit-striped-shirts-business-camisa-500x500.png" alt="casual slim shirt" height="100px" width="100px"></td>
+            <td>2.1</td>
+            <td>430</td>
+           </tr>
+           <tr>
+            <td>5</td>
+            <td>John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet</td>
+            <td> 695</td>
+            <td>From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.</td>
+            <td>jewelery</td>
+            <td><img src="data:image/png;base64,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" alt="Bracelt" width="150px" height="150px"></td>
+            <td>4.6</td>
+            <td>400</td>
+           </tr>
+    </table>
+</body>
+</html>
